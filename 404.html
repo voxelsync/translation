@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <title>Redirect to JSON</title>
     <script>
-        if (!window.location.pathname.endsWith(".json")) {
+        if (!window.location.pathname.endsWith(".json") && !window.location.pathname.endsWith("/")) {
             window.location.href = window.location.pathname + ".json";
         } else if (window.location.pathname.includes('/minecraft/')) {
             window.location.href = '/translation/minecraft/index.json';
