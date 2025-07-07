@@ -4,10 +4,18 @@
     <meta charset="utf-8">
     <title>Redirect to JSON</title>
     <script>
-        if (window.location.pathname.includes('/minecraft/')) {
+        const path = window.location.pathname;
+
+        if (path.endsWith('.json')) {
+            document.body.innerHTML = '<h1>JSON Inhalt sollte hier sein</h1>';
+        } 
+    
+        else if (path.includes('/minecraft/')) {
             window.location.href = '/translation/minecraft/index.json';
-        } else {
-            document.body.innerHTML = '<h1>404 Not Found</h1>';
+        } 
+            
+        else {
+            window.location.href = path + (path.endsWith('/') ? 'index.json' : '.json');
         }
     </script>
 </head>
