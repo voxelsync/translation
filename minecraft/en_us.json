@@ -1,5 +1,4 @@
 {
-  "warning": "Not a supported or valid language key. The language 'en_us' will be used.",
   "enchantment.minecraft.aqua_affinity": "Aqua Affinity",
   "enchantment.minecraft.bane_of_arthropods": "Bane of Arthropods",
   "enchantment.minecraft.binding_curse": "Curse of Binding",
@@ -1859,5 +1858,5 @@
   "item.minecraft.zombie_spawn_egg": "Zombie Spawn Egg",
   "item.minecraft.zombie_villager_spawn_egg": "Zombie Villager Spawn Egg",
   "item.minecraft.zombie_wall_head": "Zombie Wall Head",
-  "item.minecraft.zombified_piglin_spawn_egg": "Zombified Piglin Spawn Egg",
+  "item.minecraft.zombified_piglin_spawn_egg": "Zombified Piglin Spawn Egg"
 }

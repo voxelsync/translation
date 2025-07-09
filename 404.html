@@ -6,7 +6,7 @@
         if (!window.location.pathname.endsWith(".json") && !window.location.pathname.endsWith("/")) {
             window.location.href = window.location.pathname + ".json";
         } else if (window.location.pathname.includes('/minecraft/')) {
-            window.location.href = '/translation/minecraft/index.json';
+            window.location.href = '/translation/minecraft/';
         } else {
             document.body.innerHTML = '<h1>404 Not Found</h1>';
         }
